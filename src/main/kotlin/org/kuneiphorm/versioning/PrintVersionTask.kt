@@ -10,7 +10,7 @@ import org.gradle.api.tasks.UntrackedTask
  * Gradle task that prints a version string to standard output.
  *
  * @author Florent Guille
- * @since 0.0.0
+ * @since 0.1.0
  */
 @UntrackedTask(because = "Version output depends on git state")
 abstract class PrintVersionTask : DefaultTask() {

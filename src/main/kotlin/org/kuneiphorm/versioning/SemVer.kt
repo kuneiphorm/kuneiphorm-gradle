@@ -9,7 +9,7 @@ package org.kuneiphorm.versioning
  * as required by section 10 of the SemVer specification.
  *
  * @author Florent Guille
- * @since 0.0.0
+ * @since 0.1.0
  */
 data class SemVer(
     val major: Int,
