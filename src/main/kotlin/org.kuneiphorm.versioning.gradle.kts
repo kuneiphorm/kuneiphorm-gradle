@@ -65,13 +65,13 @@ tasks.register<PrintVersionTask>("nextRc") {
         val type = project.findProperty("type")?.toString()
         if (type != null) {
             if (baseVersion.rc != null) {
-                error("Current version $baseVersion is already a release candidate — finalize or abandon it before starting a new RC series")
+                error("Current version $baseVersion is already a release candidate -- finalize or abandon it before starting a new RC series")
             }
             val target = when (type) {
                 "fix" -> baseVersion.nextFix()
                 "minor" -> baseVersion.nextMinor()
                 "major" -> baseVersion.nextMajor()
-                else -> error("Invalid type '$type' — expected fix, minor, or major")
+                else -> error("Invalid type '$type' -- expected fix, minor, or major")
             }
             target.copy(rc = 1).toString()
         } else {
