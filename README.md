@@ -1,3 +1,9 @@
+[![CI](https://img.shields.io/github/actions/workflow/status/kuneiphorm/kuneiphorm-gradle/ci.yml?branch=master&label=CI)](https://github.com/kuneiphorm/kuneiphorm-gradle/actions)
+[![kuneiphorm-gradle](https://img.shields.io/github/v/release/kuneiphorm/kuneiphorm-gradle?include_prereleases&label=kuneiphorm-gradle)](https://github.com/kuneiphorm/kuneiphorm-gradle/releases)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue)
+![Java](https://img.shields.io/badge/Java-21-blue)
+
+
 # kuneiphorm-gradle
 
 Shared Gradle convention plugins for all [kuneiphorm](https://github.com/kuneiphorm) Java modules. Provides consistent versioning, publishing, testing, code coverage, mutation testing, and formatting across the project.
