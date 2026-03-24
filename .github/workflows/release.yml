@@ -11,4 +11,4 @@ permissions:
 
 jobs:
   release:
-    uses: kuneiphorm/.github/.github/workflows/release.yml@master
+    uses: kuneiphorm/.github/.github/workflows/release.yml@v0.1.0

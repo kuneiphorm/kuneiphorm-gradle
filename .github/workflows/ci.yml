@@ -8,4 +8,4 @@ on:
 
 jobs:
   build:
-    uses: kuneiphorm/.github/.github/workflows/ci.yml@master
+    uses: kuneiphorm/.github/.github/workflows/ci.yml@v0.1.0
